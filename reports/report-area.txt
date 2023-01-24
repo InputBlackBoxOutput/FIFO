@@ -1,0 +1,27 @@
+ 
+****************************************
+Report : area
+Design : FIFO
+Version: R-2020.09-SP1
+Date   : Sun Jan 22 19:21:11 2023
+****************************************
+
+Library(s) Used:
+
+    gscl45nm (File: /usr/local/packages/cadence_2007/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+
+Number of ports:                           26
+Number of nets:                           679
+Number of cells:                          667
+Number of combinational cells:            567
+Number of sequential cells:                82
+Number of macros/black boxes:               0
+Number of buf/inv:                        255
+Number of references:                      12
+
+Combinational area:               1323.425970
+Buf/Inv area:                      467.892087
+Noncombinational area:             696.441193
+Macro/Black Box area:                0.000000
+
+Total cell area:                  2019.867163

@@ -1,0 +1,56 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : FIFO
+Version: R-2020.09-SP1
+Date   : Sun Jan 22 19:22:15 2023
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: COUNT_reg[1]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: MEMORY_reg[5][0]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  COUNT_reg[1]/CLK (DFFSR)                 0.00       0.00 r
+  COUNT_reg[1]/Q (DFFSR)                   0.11       0.11 f
+  U2290/Y (BUFX2)                          0.05       0.16 f
+  U2245/Y (OR2X1)                          0.04       0.20 f
+  U2246/Y (INVX1)                          0.02       0.22 r
+  U1956/Y (NAND3X1)                        0.02       0.24 f
+  U2226/Y (BUFX2)                          0.03       0.27 f
+  U1988/Y (AND2X1)                         0.07       0.34 f
+  U2297/Y (INVX1)                          0.21       0.55 r
+  U1943/Y (OAI21X1)                        0.08       0.63 f
+  U1942/Y (AOI21X1)                        0.02       0.65 r
+  U2022/Y (BUFX2)                          0.03       0.69 r
+  U1960/Y (AND2X1)                         0.05       0.73 r
+  U1941/Y (NAND3X1)                        0.02       0.75 f
+  U2050/Y (BUFX2)                          0.03       0.78 f
+  U1940/Y (OAI21X1)                        0.08       0.86 r
+  U1825/Y (OAI21X1)                        0.04       0.90 f
+  MEMORY_reg[5][0]/D (DFFPOSX1)            0.00       0.90 f
+  data arrival time                                   0.90
+
+  clock CLK (rise edge)                 2000.00    2000.00
+  clock network delay (ideal)              0.00    2000.00
+  MEMORY_reg[5][0]/CLK (DFFPOSX1)          0.00    2000.00 r
+  library setup time                      -0.06    1999.94
+  data required time                               1999.94
+  -----------------------------------------------------------
+  data required time                               1999.94
+  data arrival time                                  -0.90
+  -----------------------------------------------------------
+  slack (MET)                                      1999.04

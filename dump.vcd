@@ -1,0 +1,139 @@
+$date
+	Sun Jan 22 20:10:17 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module FIFO_tb $end
+$scope module fifo $end
+$var wire 8 ! BUFFER_IN [7:0] $end
+$var wire 1 " CLK $end
+$var wire 1 # RD_EN $end
+$var wire 1 $ RST $end
+$var wire 1 % WR_EN $end
+$var reg 8 & BUFFER_OUT [7:0] $end
+$var reg 4 ' COUNT [3:0] $end
+$var reg 1 ( EMPTY $end
+$var reg 1 ) FULL $end
+$var reg 3 * RD_PTR [2:0] $end
+$var reg 3 + WR_PTR [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 +
+b0 *
+0)
+1(
+b0 '
+b0 &
+x%
+1$
+x#
+1"
+bx !
+$end
+#100
+0$
+0"
+#200
+0(
+b1 +
+b1 '
+b11110000 !
+1%
+1"
+#300
+0%
+0"
+#400
+b10 '
+b10 +
+b11110001 !
+1%
+1"
+#500
+0%
+0"
+#600
+b11 +
+b11 '
+b11110010 !
+1%
+1"
+#700
+0%
+0"
+#800
+b100 '
+b100 +
+b11110011 !
+1%
+1"
+#900
+0%
+0"
+#1000
+b101 +
+b101 '
+b11110100 !
+1%
+1"
+#1100
+0%
+0"
+#1200
+b110 '
+b110 +
+b11110101 !
+1%
+1"
+#1300
+0%
+0"
+#1400
+b111 +
+b111 '
+b11110110 !
+1%
+1"
+#1500
+0%
+0"
+#1600
+1)
+b1000 '
+b0 +
+b11110111 !
+1%
+1"
+#1700
+0%
+0"
+#1800
+0)
+b1 *
+b11110000 &
+b111 '
+1#
+1"
+#1900
+0#
+0"
+#2000
+b110 '
+b11110001 &
+b10 *
+1#
+1"
+#2100
+0#
+0"
+#2200
+1"
+#2300
+0"

@@ -1,0 +1,35 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon Jan 23 00:25:35 2023
+[*]
+[dumpfile] "/home/blackbox/Desktop/FIFO/dump.vcd"
+[dumpfile_mtime] "Mon Jan 23 00:24:36 2023"
+[dumpfile_size] 1073
+[savefile] "/home/blackbox/Desktop/FIFO/wave.gtkw"
+[timestart] 0
+[size] 1830 1009
+[pos] -39 -39
+*-12.000000 20020 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] FIFO_tb.
+[sst_width] 273
+[signals_width] 233
+[sst_expanded] 1
+[sst_vpaned_height] 569
+@28
+FIFO_tb.fifo.CLK
+@29
+FIFO_tb.fifo.RST
+@28
+FIFO_tb.fifo.WR_EN
+@22
+FIFO_tb.fifo.BUFFER_IN[7:0]
+@28
+FIFO_tb.fifo.RD_EN
+@22
+FIFO_tb.fifo.BUFFER_OUT[7:0]
+FIFO_tb.fifo.COUNT[3:0]
+@28
+FIFO_tb.fifo.FULL
+FIFO_tb.fifo.EMPTY
+[pattern_trace] 1
+[pattern_trace] 0
